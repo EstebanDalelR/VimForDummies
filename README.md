@@ -18,3 +18,4 @@ There are three main modes, Command mode, Insert mode and Last Line mode. As sai
 <li><i>Command mode</i> lets you, obviously, set commands on the document, but not type. Stuff like navigating, copying, and deleting happen in this mode.</li> 
 <li><i>Insert mode</i> is the usual typing mode, with a few quirks.</li>
 <li><i>Last Line mode</i> is another command mode, but for document wide actions, and is used by typing.</li></ul>
+You may use the Cheatsheet to view all the commands at a glance. 
