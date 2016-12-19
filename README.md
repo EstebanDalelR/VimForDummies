@@ -19,5 +19,7 @@ There are three main modes, Command mode, Insert mode and Last Line mode. As sai
 <li><i>Insert mode</i> is the usual typing mode, with a few quirks.</li>
 <li><i>Last Line mode</i> is another command mode, but for document wide actions, and is used by typing.</li></ul>
 You may use the Cheatsheet to view all the commands at a glance.<br>
-In Command mode you may use h, j, k and l to navigate. The external keys (h and l) are the sides and the internal ones(j and l) navigate up and down. This may be a little awkward and sometimes you may want to navigate entire words, so, for that, use w and e, to jump to the beggining and end of next words, respectively. <br>
+In Command mode you may use h, j, k and l to navigate. The external keys (h and l) are the sides and the internal ones(j and l) navigate up and down. This may be a little awkward and sometimes you may want to navigate entire words, so, for that, use w and e, to jump to the beggining and end of next words, respectively. To go back a word use b (pnemotecnics back is b, forward a word is w), and to move to the end of the line use $. <br>
+An interesting feature in vim is the fact that numbers modify behavior. This means that in Command mode you may use 10w to go 10 words forward. <br>
+
  
