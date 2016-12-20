@@ -21,5 +21,11 @@ There are three main modes, Command mode, Insert mode and Last Line mode. As sai
 You may use the Cheatsheet to view all the commands at a glance.<br>
 In Command mode you may use h, j, k and l to navigate. The external keys (h and l) are the sides and the internal ones(j and l) navigate up and down. This may be a little awkward and sometimes you may want to navigate entire words, so, for that, use w and e, to jump to the beggining and end of next words, respectively. To go back a word use b (pnemotecnics back is b, forward a word is w), and to move to the end of the line use $. <br>
 An interesting feature in vim is the fact that numbers modify behavior. This means that in Command mode you may use 10w to go 10 words forward. <br>
+Now, on to editing a file. To copy and paste in Vim you only need a key, not two. In this case, to select some characters you use v and move until you have the right selection (V will select a whole line, ctrl+v will select a column). Now that you have selected some text, use y to "yank" text into your clipboard and p to paste. It's importatn to know that P in capital will replace text, in lowercase will add. <br>
+<b>Anytime, press u to undo and ctrl+r to redo.</b><br> 
+To search a document, in command mode use /text and then use n and N to move instances of the text forward and backwards, respectively. This search moves forward in the document, of course you may press g to go to the beggining and look, but that may not be the case, so ?text will search backwards. <br>
+Replace search requires a little more effort, but allows you to do it for the whole document or get a confirmation on each instance. This is the first time using a full comand. So using :%s/text/replacement/g will search the entire document and replace any instance ot text for replacement, add a c at the end to get confirmation on each replacement.<br>
+Now that you have edited your file, is time to exit, but, how? Well, now we make use of Last Line mode. Again, you may use Command mode to save and exit with ZZbut the usual is using :q (in Vim the : character sets the input). To save and exit type :wq. <br>
+As a funny quirk of Vim, you are denied exit without editing anything, but you may override it typing :q! in Last Line mode.<br>
 
  
