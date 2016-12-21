@@ -13,6 +13,7 @@
 <li> e: forward one word (end)</li>
 <li> G: end of file (last line)</li>
 <li> gg: beggining of file </li>
+<li> ZZ: save and quit </li>
 </ul><br>
 
 <b>Editing</b><br>
@@ -29,7 +30,18 @@ Notice that deleting combines de delete operation and movement<br>
 <li> dgg: delete to the beggining of the file</li>
 <li> dG: delete to the end of the file</li>
 <li> x: delete the current character  </li>
+<li> p: paste text in the buffer</li>
+<li> P: paste (replace) </li>
+<li> y: yank text to buffer </li>
 </ul><br>
 
 
+<b>Searching and Replacing</b><br>
+<ul>
+<li> /text: search text forward</li>
+<li> n: go to the next instanceof the search </li>
+<li> N: go to the previous instance of the search </li>
+<li> ?text: search text backwards </li>
+<li> :%s/text/replacement/g: replace in the entire document </li>
+</ul><br>
 
