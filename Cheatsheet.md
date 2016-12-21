@@ -1,4 +1,5 @@
 <h1> CHEATSHEET </h1><br>
+<sub>Notice that uppercase and lowercase letters mean different behaviors</sub>
 <h3><i> Command mode</i></h3><br>
 <b>Navigation</b><br>
 <ul>
@@ -17,6 +18,10 @@
 <b>Editing</b><br>
 Notice that deleting combines de delete operation and movement<br>
 <ul>
+
+<li> v: starts the selection operation</li>
+<li> V: selects the current line </li>
+<li> vg: selects to the beggining of file </li>
 <li> d: starts the delete operation </li>
 <li> dw: delete a word </li>
 <li> do: delete to the beggining of the line  </li>
