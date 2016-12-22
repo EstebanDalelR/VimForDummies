@@ -45,3 +45,10 @@ Notice that deleting combines de delete operation and movement<br>
 <li> :%s/text/replacement/g: replace in the entire document </li>
 </ul><br>
 
+<b>Saving Keystrokes</b>
+<ul>
+<li> Ctrl+p: complete with previous words</li>
+<li> Ctrl+n: complete with next words</li>
+<li> :ab wtc WordToComplete: create abbreviation on wtc to replace with WordToComplete</li>
+<li> :una wtc: delete abbreviation on wtc </li>
+	 
