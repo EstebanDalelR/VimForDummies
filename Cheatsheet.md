@@ -55,6 +55,14 @@ Notice that deleting combines de delete operation and movement<br>
 
 <b>Multiple editing</b>
 <ul>
+<li> :split: split into viewports</li>
+<li> ctrl+w: split into viewports </li>
+<li> :split filename: split into viewports with filename open</li>
+<li> ctrl+w r: rotate viewports</li>
+<li> vim -p fl1 fl2: open vim tabbed forth fl1 and fl2</li>
+<li> :tabnew: new tab </li>
+<li> gl: switch tab </li>
+<li> :tabc: close a tab </li>
 
 
 </ul>

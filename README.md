@@ -36,5 +36,7 @@ As a funny quirk of Vim, you are denied exit without editing anything, but you m
 <b>Making your life easier</b>
 Vim is, by default, powerful, so word completion is included out of the box (zip?). For this in Insert mode just press ctrl+p to match any previous text (ctrl+n for text ahead).<br>
 When typing strings in a repeated way, Vim helps a lot with abbreviations, so rlw can become ReallyLongWord. To use this in Last Line mode type :ab rlw ReallyLongWord (to delete it :una rlw).<br>
- 
- 
+Now, as most modern browsers you will want to open in tabs different files, or the same one to edit different parts. Vim lets you do this and, as always, you can do this without moving your hands from the keyboard. <br>
+To edit the same file, go to Last Line mode and use :split. To chage viewport, in Command mode press ctrl+w and you will cycle through. To do the same, but openening another file is :split filename. <br> 
+One important thing when splitting is the fact that the files share a buffer so you may yank from one and paste to the other. <br>
+To open vim in tabs, rather than viewports (split) use vim -p filename1 filename2 or, if you have Vim open already, use, in Last Line mode :tabnew filename.<br>
