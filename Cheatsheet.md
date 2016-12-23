@@ -51,4 +51,11 @@ Notice that deleting combines de delete operation and movement<br>
 <li> Ctrl+n: complete with next words</li>
 <li> :ab wtc WordToComplete: create abbreviation on wtc to replace with WordToComplete</li>
 <li> :una wtc: delete abbreviation on wtc </li>
+</ul>
+
+<b>Multiple editing</b>
+<ul>
+
+
+</ul>
 	 
