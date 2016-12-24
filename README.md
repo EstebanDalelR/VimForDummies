@@ -40,3 +40,10 @@ Now, as most modern browsers you will want to open in tabs different files, or t
 To edit the same file, go to Last Line mode and use :split. To chage viewport, in Command mode press ctrl+w and you will cycle through. To do the same, but openening another file is :split filename. <br> 
 One important thing when splitting is the fact that the files share a buffer so you may yank from one and paste to the other. <br>
 To open vim in tabs, rather than viewports (split) use vim -p filename1 filename2 or, if you have Vim open already, use, in Last Line mode :tabnew filename.<br>
+
+<h2>Part 3</h2>
+<sub>This part is based upon https://www.linux.com/learn/vim-301-getting-adept-vim</sub><br>
+
+
+
+
