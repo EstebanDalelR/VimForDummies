@@ -67,3 +67,9 @@ Notice that deleting combines de delete operation and movement<br>
 
 </ul>
 	 
+<b>Other Commands</b>
+<ul>
+<li> :set number: show line numbers</li>
+<li> :set nonumber: hide line numbers</li>
+
+</ul>
