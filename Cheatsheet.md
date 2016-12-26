@@ -33,6 +33,7 @@ Notice that deleting combines de delete operation and movement<br>
 <li> p: paste text in the buffer</li>
 <li> P: paste (replace) </li>
 <li> y: yank text to buffer </li>
+<li> d: cut</li>
 </ul><br>
 
 
@@ -71,5 +72,5 @@ Notice that deleting combines de delete operation and movement<br>
 <ul>
 <li> :set number: show line numbers</li>
 <li> :set nonumber: hide line numbers</li>
-
+<li> :00: takes you to line 00</li>
 </ul>
