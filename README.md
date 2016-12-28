@@ -43,6 +43,10 @@ To open vim in tabs, rather than viewports (split) use vim -p filename1 filename
 
 <h2>Part 3</h2>
 <sub>This part is based upon https://www.linux.com/learn/vim-301-getting-adept-vim</sub><br>
+It is time for some really nice features of vim (some more, anyways). Sometimes you may want to hide some lines for any reason. Of course Vim allows you to do so, and it is called "folding". All folding commands are preceded by z and then you will then set options for how to fold. <br>
+Vim is nice enough to mark the fold points, and allows you to delete everything that was folded. Check the cheatsheet for all the fold comands.<br>
+if you need to go back to the command line (hacker style), just run :sh -- to get another session.<br>
+
 
 
 
