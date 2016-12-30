@@ -50,4 +50,4 @@ if you need to go back to the command line (hacker style), just run :sh -- to ge
 You may want scripts, but for the sake of keeping this dummie guide short I will skip it. If you want this for yourself please search onlie, there are hundreds of resources.<br>
 Vim lets you use some commands that will make life easier, like finding uniques and sorting. For this, you may select some lines and use :! sort, or dictate the lines you want to sort, using :l1,l2 ! sort (replace l1 and l2 with the starting and ending line). <br>
 
-
+Another time saving feature in Vim is conveniently located in the dot (.) key. Pressing this will redo your last operation, so jumping 10 words (10w) and pressing . will jump 10 words each time. <br>
