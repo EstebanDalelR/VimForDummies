@@ -74,4 +74,6 @@ Notice that deleting combines de delete operation and movement<br>
 <li> :set nonumber: hide line numbers</li>
 <li> :00: takes you to line 00</li>
 <li> :! sort: sort selection</li>
+<li> .: redo last operation</li>
+
 </ul>
