@@ -1,5 +1,5 @@
 <h1> CHEATSHEET </h1><br>
-<sub>Notice that uppercase and lowercase letters mean different behaviors</sub>
+<b>Notice that uppercase and lowercase letters mean different behaviors</b>
 <h3><i> Command mode</i></h3><br>
 <b>Navigation</b><br>
 <ul>
@@ -73,4 +73,5 @@ Notice that deleting combines de delete operation and movement<br>
 <li> :set number: show line numbers</li>
 <li> :set nonumber: hide line numbers</li>
 <li> :00: takes you to line 00</li>
+<li> :! sort: sort selection</li>
 </ul>
