@@ -33,7 +33,7 @@ Now that you have edited your file, is time to exit, but, how? Well, now we make
 As a funny quirk of Vim, you are denied exit without editing anything, but you may override it typing :q! in Last Line mode.<br>
 <h2>Part 2</h2>
 <sub>This part is based upon https://www.linux.com/learn/vim-201-intermediate-guide-vim</sub><br>
-<b>Making your life easier</b>
+<b>Making your life easier</b><br>
 Vim is, by default, powerful, so word completion is included out of the box (zip?). For this in Insert mode just press ctrl+p to match any previous text (ctrl+n for text ahead).<br>
 When typing strings in a repeated way, Vim helps a lot with abbreviations, so rlw can become ReallyLongWord. To use this in Last Line mode type :ab rlw ReallyLongWord (to delete it :una rlw).<br>
 Now, as most modern browsers you will want to open in tabs different files, or the same one to edit different parts. Vim lets you do this and, as always, you can do this without moving your hands from the keyboard. <br>
