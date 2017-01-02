@@ -55,3 +55,5 @@ Another time saving feature in Vim is conveniently located in the dot (.) key. P
 <h2>Part 4</h2>
 <sub> This part is base upon https://www.linux.com/learn/vim-401-extending-vim-and-more </sub><br>
  
+Now, this section is all about adding features to Vim, making it your own. For more advanced users, you can write scripts, for your weirdest desires, but as Vim is very old and widespread, someone probably started writing the script you need. <br>
+
